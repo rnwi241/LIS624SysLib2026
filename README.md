@@ -1,4 +1,4 @@
-# # **LIS624-201 Systems Librarianship**
+# LIS624-201 Systems Librarianship**
 Tools for understanding systems librarianship.
 This repository will be used to document my educational uderstanding of how technologies impact information ecosystems.
 ___
