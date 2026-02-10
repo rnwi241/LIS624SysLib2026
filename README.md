@@ -14,3 +14,16 @@ Results: Completed.
 Verification:
 
 Notes: Selected Microsoft Edit for text editor. "edit" will launch text editor, ctrl-q will exit. 
+__
+## 2026-02-10 Module 3.5 Searching with Grep
+Goal:
+
+Context:
+
+Steps:
+
+Results:
+
+Verification:
+
+Notes: "sudo reboot" to restart the system.
