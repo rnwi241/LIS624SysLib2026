@@ -16,14 +16,14 @@ Verification:
 Notes: Selected Microsoft Edit for text editor. "edit" will launch text editor, ctrl-q will exit. 
 __
 ## 2026-02-10 Module 3.5 Searching with Grep
-Goal:
+Goal: Search with grep, upload BibTeX file to VM using Web of Science data. Use command prompts to search for data specs. 
 
-Context:
+Context: These tasks are associated with module 5 in LIS624-201.
 
-Steps:
+Steps: Outlined in goals.
 
-Results:
+Results: Completed.
 
-Verification:
+Verification: See grades in Canvas.
 
-Notes: "sudo reboot" to restart the system.
+Notes: "sudo reboot" to restart the system.'ZZ' command will save & quit (exit) out of the text editor. cat operating-systems.csv will bring you back. 'man grep' reference manual. Connection link is done by connecting to the SSH-browser.
