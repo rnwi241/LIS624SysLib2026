@@ -40,12 +40,13 @@ Results: Completed.
 Verification: See grades in Canvas. 
 
 Notes: 
-To keep system up-to-date:
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-sudo apt clean
 
-Yaz command for Bib-1 attributes: man bib1-attr
+To keep system up-to-date:
+* sudo apt update
+* sudo apt upgrade
+* sudo apt autoremove
+* sudo apt clean
+
+Yaz command for Bib-1 attributes: 'man bib1-attr'
 
 LOC Bibliographic-1 Attribute Set: https://loc.gov/z3950/agency/defns/bib1.html. 
