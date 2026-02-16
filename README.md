@@ -33,7 +33,7 @@ Goal: Use 'sudo' and 'apt' commands to manage software and package applications.
 
 Context: 'Yaz' is used to search bibliographic attributes (metadata fields) in Online Public Access Catalogs (OPAC's). 
 
-Steps: 1. Update and upgrade software using sudo/apt commands on VM. Install 'yaz' client and search metadata records.
+Steps: 1. Update and upgrade software using sudo/apt commands on VM. 2. Install 'yaz' client and search metadata records.
 
 Results: Completed.
 
