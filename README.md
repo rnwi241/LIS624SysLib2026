@@ -13,7 +13,7 @@ Results: Completed.
 
 Verification: See grades in Canvas.
 
-Notes: Selected Microsoft Edit for text editor. "edit" will launch text editor, ctrl-q will exit. 
+Notes: Selected Microsoft Edit for text editor. 'edit' will launch text editor, ctrl-q will exit. 
 __
 ## 2026-02-10 Module 3.1 Searching with Grep
 Goal: Search with grep, upload BibTeX file to VM using Web of Science data. Use command prompts to search for data specs. 
@@ -26,7 +26,7 @@ Results: Completed.
 
 Verification: See grades in Canvas.
 
-Notes: "sudo reboot" to restart the system.'ZZ' command will save & quit (exit) out of the text editor. cat operating-systems.csv will bring you back. 'man grep' reference manual. Connection link is done by connecting to the SSH-browser.
+Notes: 'sudo reboot' to restart the system.'ZZ' command will save & quit (exit) out of the text editor. cat operating-systems.csv will bring you back. 'man grep' reference manual. Connection link is done by connecting to the SSH-browser.
 __
 ## 2026-02-16 Module 3.2 Managing Software & 3.3 Library Search
 Goal: Use 'sudo' and 'apt' commands to manage software and package applications. Install 'yaz' client and use it to search UK's InfoCat OPAC. 
