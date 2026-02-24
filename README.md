@@ -50,3 +50,16 @@ To keep system up-to-date:
 Yaz command for Bib-1 attributes: 'man bib1-attr'
 
 LOC Bibliographic-1 Attribute Set: https://loc.gov/z3950/agency/defns/bib1.html. 
+__
+## Command Line Notes
+* list files and directories.................. ls
+* print name of current/working directory..... pwd
+* create a new directory...................... mkdir
+* remove or delete an empty directory......... rmdir
+* change directory............................ cd
+* create an empty file........................ touch
+* print characters to output.................. echo
+* display contents of a text file............. cat
+* copy a file or directory.................... cp
+* move or rename a file or directory.......... mv
+* remove or delete a file or directory........ rm
