@@ -51,7 +51,7 @@ Yaz command for Bib-1 attributes: 'man bib1-attr'
 
 LOC Bibliographic-1 Attribute Set: https://loc.gov/z3950/agency/defns/bib1.html. 
 __
-## Command Line Notes
+## Command Line Notes & Cheat Codes
 * list files and directories.................. ls
 * print name of current/working directory..... pwd
 * create a new directory...................... mkdir
@@ -63,3 +63,21 @@ __
 * copy a file or directory.................... cp
 * move or rename a file or directory.......... mv
 * remove or delete a file or directory........ rm
+* restart.......sudo reboot
+* update system...sudo apt update/ sudo apt -y upgrade
+____  
+## Module 4.7 2026-02-26 Installing the Apache Web Server (creating a basic website)
+Goal: Install Appache web server on my virtual machine.
+
+Context:Identify IP addresses with software products. Command ip a will give you the personal IP address of your website, elinks http://10.128.0.2 (internal) 
+
+Steps: When installing apache softward <systemctl status apache2> ensure status reflection <Loaded: enabled> and <Active: active/running>.
+
+
+Results: Installed with elinks, loop back IP address is elinks localhost.
+
+
+Verification: See grades in Canvas.
+
+Notes: apt search <package_name> and apt show <package_name> commands locate desired packages.
+* shift q (Q) to exit, mouse doesn't work with elinks, must use tabs for navigation.
