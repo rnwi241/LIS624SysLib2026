@@ -82,6 +82,6 @@ Notes: apt search <package_name> and apt show <package_name> commands locate des
 * sudo nano index.html - ctrl X (exit) - Y (save)
 * Apache website http://34.9.245.31/
 
-To get to the root directory to make changes via apache use the following:
-cd /var/www/html/
-sudo nano index.html
+To get to the root directory to make changes via apache use the following steps:
+1. cd /var/www/html/
+2. sudo nano index.html
