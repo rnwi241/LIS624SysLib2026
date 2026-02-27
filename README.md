@@ -81,3 +81,23 @@ Verification: See grades in Canvas.
 
 Notes: apt search <package_name> and apt show <package_name> commands locate desired packages.
 * shift q (Q) to exit, mouse doesn't work with elinks, must use tabs for navigation.
+
+## Module 4.7 2026-02-26 Installing the Apache Web Server (creating a basic website)
+Goal: Install Appache web server on my virtual machine.
+
+Context: Identify IP addresses with software products. Command 'ip' a will give you the personal IP address of your website, 'elinks http://10.128.0.2' (internal). A web server is software that makes websites available in browsers. As noted in our reading for the week, web servers make files accessible to others via their web browsers. 
+
+Steps: When installing apache softward 'systemctl status apache2' ensure status reflection <Loaded: enabled> and <Active: active/running>.
+
+Results: Installed with elinks, loop back IP address is 'elinks localhost'.
+
+Verification: See grades in Canvas.
+
+Notes: apt search <package_name> and apt show <package_name> commands locate desired packages.
+* shift q (Q) to exit, mouse doesn't work with elinks, must use tabs for navigation.
+* sudo nano index.html - ctrl X (exit) - Y (save)
+* Apache website http://34.9.245.31/
+
+To get to the root directory to make changes via apache use the following:
+cd /var/www/html/
+sudo nano index.html
