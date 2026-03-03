@@ -88,7 +88,10 @@ To get to the root directory to make changes via apache use the following steps:
    
 ### New Document Requirements 03/03/2026
 README.md
+
 setup-notes.md
+
 apache-install.md
+
 week03-reflection.md
 
