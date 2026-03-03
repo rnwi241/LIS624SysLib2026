@@ -85,3 +85,10 @@ Notes: apt search <package_name> and apt show <package_name> commands locate des
 To get to the root directory to make changes via apache use the following steps:
 1. cd /var/www/html/
 2. sudo nano index.html
+   
+### New Document Requirements 03/03/2026
+README.md
+setup-notes.md
+apache-install.md
+week03-reflection.md
+
