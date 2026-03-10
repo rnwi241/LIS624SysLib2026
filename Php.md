@@ -19,9 +19,9 @@ First, I updated the package list to ensure I was installing the latest availabl
 
 ```
 sudo apt update
-This was completed without errors.
+This was completed without errors.\
 
-## Step 2: Install Apache
+## **Step 2: Install Apache**
 
 sudo apt install apache2
 
