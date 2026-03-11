@@ -2,13 +2,15 @@
 
 ## Overview
 
-This document records my process installing Apache and PHP on my Ubuntu VM hosted on Google Cloud.  
+This document records my process for installing Apache and PHP on my Ubuntu VM hosted on Google Cloud.  
 The goal was to verify that Apache was running and that PHP was correctly configured using a browser/OS detection script.
-The documentation procedures have been updated. This module is reflection of those changes. 
+The documentation procedures have been updated. This module is a reflection of those changes. 
 
 ## Note
 Adding files to the Git repository on my VM steps:
-Pusing files to the Git repository on my VM steps:
+
+
+Pushing files to the Git repository on my VM steps:
  
 ## Environment
 
@@ -54,11 +56,8 @@ Saved and exited.
 sudo systemctl restart apache2
 
 ## Step 7: Test PHP in Browser
-
 Visited:
-
 http://<my-external-ip>/info.php
-
 The PHP configuration page appeared, confirming PHP was working correctly.
 
 ## Step 8: Browser / OS Detector Script
