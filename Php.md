@@ -7,6 +7,7 @@ The goal was to verify that Apache was running and that PHP was correctly config
 The documentation procedures have been updated. This module is a reflection of those changes. 
 
 ## Note
+
 Adding files to the Git repository on my VM steps:
 
 
@@ -20,8 +21,11 @@ Pushing files to the Git repository on my VM steps:
 - PHP Version: 8.1
 - Browser Used for Testing: Firefox (Linux)
 
-## Step 1. Update Package Lists 
+## Step 1. Update Package Lists
+
+``` 
 sudo apt update
+```
 
 ## Step 2. Install Apache
 sudo apt install apache2
