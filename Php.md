@@ -52,45 +52,63 @@ I saw the default Apache2 Ubuntu page, confirming that the server was accessible
 sudo apt install php libapache2-mod-php
 ```
 Installation completed without errors.
+
 Verified PHP version:
 php -v
+
 Output showed:
 PHP 8.1.x
 
 ## Step 5. Create PHP Test File
 
 Navigate to the web root:
+
 ```
 cd /var/www/html
 ```
+
 Created a PHP test file:
+
 ```
 sudo nano info.php
 ```
+
 Added:
 <?php
 phpinfo();
 ?>
+
 Saved and exited.
 
 ## Step 6. Restart Apache
-sudo systemctl restart apache2
+
+```sudo systemctl restart apache2```
 
 ## Step 7: Test PHP in Browser
+
 Visited:
+
 http://<my-external-ip>/info.php
+
 The PHP configuration page appeared, confirming PHP was working correctly.
 
 ## Step 8: Browser / OS Detector Script
+
 Created:
+```
 sudo nano detector.php
+```
+
 Added the provided browser/OS detection code.
+
 Tested in Firefox and confirmed it correctly identified:
     Operating System: Linux
     Browser: Firefox
+
 Outcome successful.
 
 ## Outcomes
+
 Apache and PHP are now successfully installed and verified. The browser detection script confirmed proper server-side execution.Client-side programming takes place in a user’s browser; it is information delivered by a server. Server-side programming runs on a web server and contains content that is pushed out to users.
 
 PHP (Hypertext PreProcessor) must be installed on the server because it is a scripting language written for server-side programming operations. Once Apache has been commanded to understand .php files it communicates this process to a browser through HTML. The software then looks back to Apache and processes the .php script.
