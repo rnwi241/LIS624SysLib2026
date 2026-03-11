@@ -28,17 +28,29 @@ sudo apt update
 ```
 
 ## Step 2. Install Apache
+
+```
 sudo apt install apache2
+```
 Check status of install using:
+
+```
 systemctl status apache2
+```
+
 Output indicated: Active: active (running)
 
 ## Step 3. Confirm Apache in Browser
+
 http://10.128.0.2/
+
 I saw the default Apache2 Ubuntu page, confirming that the server was accessible.
 
 ## Step 4. Install PHP
+
+```
 sudo apt install php libapache2-mod-php
+```
 Installation completed without errors.
 Verified PHP version:
 php -v
@@ -46,10 +58,15 @@ Output showed:
 PHP 8.1.x
 
 ## Step 5. Create PHP Test File
+
 Navigate to the web root:
+```
 cd /var/www/html
+```
 Created a PHP test file:
+```
 sudo nano info.php
+```
 Added:
 <?php
 phpinfo();
