@@ -16,10 +16,11 @@ For this exercise I built a LAMP stack by installing and configuring MySQL and c
 
 Updated system
 
-``` sudo apt update
-  sudo apt upgrade
-  sudo apt autoremove
-  sudo apt clean``
+```
+ sudo apt update
+ sudo apt upgrade
+ sudo apt autoremove
+ sudo apt clean```
 
 ## Step 2. Install MySQL Community Server package
  
