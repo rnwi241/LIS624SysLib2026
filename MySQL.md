@@ -20,11 +20,14 @@ Updated system
  sudo apt update
  sudo apt upgrade
  sudo apt autoremove
- sudo apt clean```
+ sudo apt clean
+```
 
 ## Step 2. Install MySQL Community Server package
  
-```sudo apt install mysql-server```
+```
+sudo apt install mysql-server
+```
 
 Confirmed version and functionality.
 
@@ -42,15 +45,21 @@ Reload privilege tables now: Y
 
 Access database:
 
-```sudo mysql -u root```
+```
+sudo mysql -u root
+```
 
 Clear MySQL screen:
 
-```ctrl L```
+```
+ctrl L
+```
 
 To quit MySQL:
 
-```\q```
+```\
+q
+```
 
 ## Step 5. Create User Account
 
@@ -71,11 +80,17 @@ username: opacuser
 
 database name: opacdb
 
-```mysql -u opacuser -p```
+```
+mysql -u opacuser -p
+```
 
-```show databases;```
+```
+show databases;
+```
 
-```use opacdb;```
+```
+use opacdb;
+```
 
 Testing commands for this unit are intuitive. select, update, alter, describe + specification.
 
@@ -83,12 +98,14 @@ Testing commands for this unit are intuitive. select, update, alter, describe + 
 
 Create scripts
 
-```cd /var/www
+```
+cd /var/www
 sudo touch login.php
 sudo chmod 640 login.php
 sudo chown :www-data login.php
 ls -l login.php
-sudo nano login.php```
+sudo nano login.php
+```
 
 Create file in root directory. 
 
