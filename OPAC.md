@@ -60,11 +60,11 @@ Query Data
 
 Unders arrow brackets:
 
-```mysql> use opacdb;
-mysql> alter table books add publication_date date;
-mysql> update books set publication_date = str_to_date(concat(copyright, '-01-01'), '%Y-%m-%d');
-mysql> alter table books drop column copyright;
-mysql> alter table books change publication_date copyright date not null;```
+```mysql> use opacdb;```
+```mysql> alter table books add publication_date date;```
+```mysql> update books set publication_date = str_to_date(concat(copyright, '-01-01'), '%Y-%m-%d');```
+```mysql> alter table books drop column copyright;```
+```mysql> alter table books change publication_date copyright date not null;```
 
 Be sure to check notes on installing mylibrary.html
 
