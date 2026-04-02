@@ -56,8 +56,11 @@ Query Data
 
 ## Step 4. Create Bare Bones OPAC
 
-```mysql -u opacuser -p
-mysql> use opacdb;
+```mysql -u opacuser -p```
+
+Unders arrow brackets:
+
+```mysql> use opacdb;
 mysql> alter table books add publication_date date;
 mysql> update books set publication_date = str_to_date(concat(copyright, '-01-01'), '%Y-%m-%d');
 mysql> alter table books drop column copyright;
