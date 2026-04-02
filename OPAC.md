@@ -12,62 +12,64 @@ OPAC or Online Public Access Catalog is a digital repository of holdings, most o
 OPAC's are maintained through relational databases (cataloging) and accessed by users through search query functions that allow them to locate materials.
 
 ## Relational Databases Structures
+
 Relational databases deal with tables of data related to a common subject or field. The structure of relational databases positively impact research because of knowledge tree structures within OPACs.
 
 ## Step 1. Create Databases
 
-'''sudo mysql -u root'''
+```sudo mysql -u root```
 
 password: My$ecureP@ssw0rd
 
-'''create database NAME;'''
+```create database NAME;```
 
-'''grant all privileges on NAME.* to 'opacuser'@'localhost';'''
+```grant all privileges on NAME.* to 'opacuser'@'localhost';```
 
 ## Step 2. Create Tables
 
-'''mysql -u opacuser -p'''
+```mysql -u opacuser -p```
 
-'''show databases;'''
+```show databases;```
 
-'''use NAMEDB;'''
+```use NAMEDB;```
 
 Create Table
 
-'''create table NAME'''
+```create table NAME```
         example
         example
         example;
 
 Insert Data
 
-'''insert into NAME''''
+```insert into NAME```
 
 Query Data
 
-'''select * from SPECIFY'''
+```select * from SPECIFY```
+
 ## Step 3. Database Management
 
-'''sudo mysql -u root'''
+```sudo mysql -u root```
 
-'''mysql> show grants for 'opacuser'@'localhost';'''
+```mysql> show grants for 'opacuser'@'localhost';```
 
-Step 4. Create Bare Bones OPAC
+## Step 4. Create Bare Bones OPAC
 
-'''mysql -u opacuser -p
+```mysql -u opacuser -p
 mysql> use opacdb;
 mysql> alter table books add publication_date date;
 mysql> update books set publication_date = str_to_date(concat(copyright, '-01-01'), '%Y-%m-%d');
 mysql> alter table books drop column copyright;
-mysql> alter table books change publication_date copyright date not null;'''
+mysql> alter table books change publication_date copyright date not null;```
 
 Be sure to check notes on installing mylibrary.html
 
-'''sudo nano mylibrary.html'''
+```sudo nano mylibrary.html```
 
 As well as PHP Search Script
 
-'''sudo nano search.php'''
+```sudo nano search.php```
 
 ## Modification commands
 
@@ -75,7 +77,7 @@ As well as PHP Search Script
 
 ```use opacdb;```
 
-## Step 4. Cataloging Module
+## Step 5. Cataloging Module
 
 Access root drive
 
