@@ -63,7 +63,7 @@ password: *hint* it's the same across all modules for easy programming.
 
 email: Gmail is used.
 
-<html>http://34.9.245.31/wordpress/wp-admin/</html>
+<html>http://34.9.245.31/wordpress/</html>
 
 ## Outcomes
 
