@@ -51,7 +51,7 @@ DB Name: wordpress
 
 User: wordpress
 
-Password: *hint* it's the same across all modules for easy programming. 
+Password: *hint* look at the announcements portal. 
 
 # Step 5. Setup WordPress through webpage.
 
@@ -59,11 +59,11 @@ Site Title: Library Systems
 
 username: wisemarn
 
-password: *hint* it's the same across all modules for easy programming. 
+password: *hint* look at the announcements portal.
 
-email: Gmail is used.
+email: test@example.com
 
-<html>http://34.9.245.31/wordpress/</html>
+<html>http://34.134.91.174/wordpress/</html>
 
 ## Outcomes
 
