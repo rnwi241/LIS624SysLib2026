@@ -22,13 +22,13 @@ email: test@example.com
 
 # Reflection
 
-This assignment need to be turned in late because of software installation issues as well as VM space concerns.
+This assignment needed to be turned in late because of software installation issues as well as VM space concerns.
 
 Solutions:
 
 -Created new VM in Google Cloud.
 
--Utlized new installation instructions assessed through the Canvas portal for LIS624 Systems Librarianship. 
+-Utilized new installation instructions assessed through the Canvas portal for LIS624 Systems Librarianship. 
 
 ## Outcomes
 
