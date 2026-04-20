@@ -67,12 +67,12 @@ Move WordPress and Omeka to the document root.
 
 Create databases and users
 
-```create user 'wordpress'@'localhost' identified by 'my_p4ssw0rd';
-create user 'omeka'@'localhost' identified by 'my_p4ssw0rd';
-create database wordpress;
-create database omeka;
-grant all privileges on wordpress.* to 'wordpress'@'localhost';
-grant all privileges on omeka.* to 'omeka'@'localhost';```
+```create user 'wordpress'@'localhost' identified by 'my_p4ssw0rd';```
+```create user 'omeka'@'localhost' identified by 'my_p4ssw0rd';```
+```create database wordpress;```
+```create database omeka;```
+```grant all privileges on wordpress.* to 'wordpress'@'localhost';```
+```grant all privileges on omeka.* to 'omeka'@'localhost';```
 
 Verify databases in MySQL
 
