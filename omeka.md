@@ -86,15 +86,15 @@ wordpress and omeka should be listed. Then exit
 
 WordPress
 
-```cd /var/www/html/wordpress
-sudo cp wp-config-sample.php wp-config.php
-sudo nano wp-config.php```
+```cd /var/www/html/wordpress```
+```sudo cp wp-config-sample.php wp-config.php```
+```sudo nano wp-config.php```
 
 Omeka
 
-```cd /var/www/html/omeka
-sudo cp db.ini db.ini.backup
-sudo nano db.ini```
+```cd /var/www/html/omeka```
+```sudo cp db.ini db.ini.backup```
+```sudo nano db.ini```
 
 # Step 8. Web Install of WordPress
 
@@ -118,8 +118,8 @@ Create directory:
 
 Change directory ownership:
 
-```cd /var/www/html/
-sudo chown -R :www-data wordpress/```
+```cd /var/www/html/```
+```sudo chown -R :www-data wordpress/```
 
 Change permissions in to allow editing:
 
@@ -176,7 +176,7 @@ Site Title: Library Systems
 
 username: wisemarn
 
-password: *hint* look at the announcements portal.                      
+password: my_p4ssw0rd 
 
 email: test@example.com
 
