@@ -102,13 +102,13 @@ Omeka
 
 Follow prompts to setup administrative credentials in WP:
 
-Site Title: Library Systems
+Site Title: Sir Henry Winston Main Library
 
 username: wisemarn
 
-password: hint look at the announcements portal.
+password: *hint* what you'll be excited to earn in 2026.
 
-email: test@example.com
+email: personal gmail
 
 Note: The wordpress.md file in GitHub has been updated to reflect this new information. 
 
@@ -132,8 +132,6 @@ Use command line:
 ```sudo chmod -R 774 wp-content/```
 
 # Step 9. Web Install of Omeka
-
-<html>http://34.134.91.174/omeka/</html>
 
 Follow prompts to setup administrative credentials in omeka.
 
@@ -168,19 +166,18 @@ DB Name: omeka
 
 User: omeka
 
-Password: my_p4ssw0rd
 
 # Crendentials
 
-Site Title: Library Systems
+Site Title: Sir Henry Winston Main Library
 
 username: wisemarn
 
-password: my_p4ssw0rd 
+password: see hint
 
-email: test@example.com
+email: personal gmail
 
-<html>http://34.134.91.174/omeka/</html>
+<html>http://34.61.47.135/omeka/</html>
 
 # Reflection
 
