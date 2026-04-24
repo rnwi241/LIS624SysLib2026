@@ -51,22 +51,22 @@ DB Name: wordpress
 
 User: wordpress
 
-Password: *hint* look at the announcements portal. 
+Password: *hint* you'll be excited to earn this in 2026. 
 
 # Step 5. Setup WordPress through webpage.
 
-Site Title: Library Systems
+Site Title: Sir Henry Winston Main Library
 
 username: wisemarn
 
-password: *hint* look at the announcements portal.
+password: *hint* you'll be excited to earn this in 2026.
 
-email: test@example.com
+email: personal gmail
 
-<html>http://34.134.91.174/wordpress/</html>
+<html>http://34.61.47.135/wordpress/index.php/2026/04/24/welcome-to-the-sir-henry-winston-main-library/</html>
 
 ## Outcomes
 
-WordPress assignment  completed.
+WordPress assignment completed.
 
  
